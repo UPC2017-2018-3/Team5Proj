@@ -1,0 +1,1 @@
+CColorButton m_ok;
