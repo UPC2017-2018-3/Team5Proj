@@ -1,0 +1,39 @@
+/* pages/record/record.wxss */
+.record{
+  margin: 2% 2%;
+  width: 96%;
+  height: 10%;
+  background-color: white;
+  position: relative;
+  border-radius: 25rpx 25rpx;
+}
+.icon, .address, .number, .right{
+  position: absolute;
+}
+.icon{
+  left: 5%;
+  top: 20%;
+  height: 60%;
+  width: 10%;
+}
+.address{
+  left: 20%;
+  top: 25%;
+  font-size: 25rpx;
+  color: grey;
+  width: 55%;
+}
+.number{
+  top:10%;
+  font-size: 64rpx;
+  right:11%;
+}
+.unit{
+  font-size: 20rpx;
+}
+.right{
+  top: 10%;
+  right: 2%;
+  font-size: 64rpx;
+  color: grey;
+}

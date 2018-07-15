@@ -1,0 +1,29 @@
+/* pages/signers/signers.wxss */
+.signer{
+  margin: 2% 2%;
+  width: 96%;
+  height: 10%;
+  background-color: white;
+  position: relative;
+  border-radius: 25rpx 25rpx;
+}
+.avatar, .name, .time{
+  position: absolute;
+}
+.avatar{
+  top: 20%;
+  left: 5%;
+  width: 10%;
+  height: 60%;
+  border-radius: 50% 50%;
+}
+.name{
+  top: 20%;
+  left: 18%;
+  font-size: 30rpx;
+}
+.time{
+  bottom: 1%;
+  right: 1%;
+  font-size: 32rpx;
+}

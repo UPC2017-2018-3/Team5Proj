@@ -1,0 +1,6 @@
+<!--pages/signers/signers.wxml-->
+<view wx:for="{{signers}}" wx:key="{{item.id}}" class='signer' style='background-color:{{item.bgcolor}}'>
+  <image src='{{item.src}}' class='avatar'></image>
+  <text class='name'>{{item.name}}</text>
+  <text class='time'>{{item.time}}</text>
+</view>

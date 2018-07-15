@@ -1,0 +1,46 @@
+/* pages/edit/edit.wxss */
+.description{
+  border-bottom: 1rpx solid grey;
+  height: 300rpx;
+}
+.name{
+  border-bottom: 1rpx solid grey
+}
+.description, .name{
+  width: 96%;
+  padding: 0 2%;
+}
+.container{
+  width: 100%;
+  position: relative;
+  height:100rpx;
+  border-bottom: 1rpx solid grey;
+}
+.address{
+  height: 50rpx;
+}
+.content{
+  position: absolute;
+  right: 2%;
+}
+.left{
+  left:2%;
+}
+.bottom{
+  bottom: 0;
+}
+.separator{
+  position: absolute;
+  left: 48%;
+  top: 25%;
+}
+.submit{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  border-radius: 10rpx 10rpx;
+  width: 94%;
+  font-size: 32rpx;
+  margin-top: 5%;
+  background-color: blue;
+  color:white;
+}
