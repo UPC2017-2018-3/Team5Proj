@@ -1,0 +1,21 @@
+<form bindsubmit="formSubmit">
+  <input placeholder='输入活动名称' name='name' class='name'></input>
+  <textarea placeholder='输入活动描述' name='description' class='description'></textarea>
+  <input placeholder='距离' name='distance' class='name'></input>
+  <view class='container'>
+    <picker mode='date' bindchange="startDayChange" class='content left'
+    name='startDay'>{{startDay}}</picker>
+    <picker mode='time' bindchange='startTimeChange' class='content left bottom'
+    name='startTime'>{{startTime}}</picker>
+    <label class='separator'>—</label>
+    <picker mode='date' bindchange="endDayChange" class='content'
+    name='endDay'>{{endDay}}</picker>
+    <picker mode='time' bindchange='endTimeChange' class='content bottom'
+    name='endTime'>{{endTime}}</picker>
+  </view>
+  <view class='container address'>
+    <label bindtap='chooseLocation' class='content'
+    name='position'>{{address}}</label>
+  </view>
+  <button class='submit' formType="submit">发布签到</button>
+</form>

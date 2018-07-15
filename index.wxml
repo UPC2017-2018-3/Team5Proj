@@ -1,0 +1,26 @@
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      class="myMap"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      circles="{{circles}}"
+      scale='18'
+      bindregionchange="changeCenter"
+      bindmarkertap='edit'
+      show-location
+    ></map>
+    <form bindsubmit="search" class='search'>
+      <input placeholder='输入活动标识码或名称' class='searchInput' name='keywords'></input>
+      <button class='searchSubmit' formType="submit">查询</button>
+    </form>
+    <button open-type="getUserInfo" class='getUserInfo' bindgetuserinfo='getUserInfo'>
+      <image src='/image/click.png' class='clickMe'></image>
+    </button>
+    <button class='edit' bindtap='edit'>编辑</button>
+    <image src='/image/person.png' class='record'
+    bindtap='showRecord'></image>
+  </view>
+</view>
